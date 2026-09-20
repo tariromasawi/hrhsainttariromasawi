@@ -4,7 +4,7 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>HRH Saint Tariro Masawi — The Anointed Commander</title>
-<meta name="description" content="Public information desk for HRH Saint Tariro Masawi, The Anointed Commander. House of Masawi. Mwari ndi Mwari."/>
+<meta name="description" content="Public information desk for HRH Saint Tariro Masawi. House of Masawi. Witness of Makwengura. Mwari ndi Mwari."/>
 <link rel="canonical" href="https://tariromasawi.github.io/hrhsainttariromasawi/"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet"/>
@@ -20,18 +20,30 @@ nav{display:flex;justify-content:space-between;align-items:center;font-family:Ci
 .kicker{text-align:center;font-family:Cinzel,serif;letter-spacing:.34em;font-size:11px;color:var(--gold);text-transform:uppercase}
 h1{text-align:center;font-family:Cinzel,serif;font-weight:400;font-size:clamp(30px,6.4vw,58px);line-height:1.08;margin:12px 0 8px}
 .sub{text-align:center;color:var(--mute);font-size:20px;margin:0 0 26px}
-.pills{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:0 0 42px}
+.pills{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:0 0 36px}
 .pills span{border:1px solid var(--line);padding:7px 13px;border-radius:999px;font-size:13px;color:var(--gold2)}
 .grid{display:grid;gap:16px}
-@media(min-width:800px){.two{grid-template-columns:1fr 1fr}}
+@media(min-width:800px){.two{grid-template-columns:1fr 1fr}.three{grid-template-columns:1fr 1fr 1fr}}
 .card{border:1px solid var(--line);border-radius:20px;padding:24px;background:linear-gradient(180deg,rgba(255,255,255,.035),rgba(255,255,255,.01))}
 .card h2{font-family:Cinzel,serif;font-weight:400;font-size:18px;letter-spacing:.08em;text-transform:uppercase;color:var(--gold2);margin:0 0 12px}
 .card p,.card li{font-size:19px;line-height:1.7;color:#e8e0d0;margin:0 0 10px}
 .card ul{margin:0;padding-left:18px}
-.formula{font-family:Cinzel,serif;font-size:22px;color:var(--gold2);letter-spacing:.04em}
+.formula{font-family:Cinzel,serif;font-size:22px;color:var(--gold2)}
 iframe.play{width:100%;height:230px;border:0;border-radius:14px;margin-top:8px}
 .btn{display:inline-block;margin-top:12px;background:var(--gold);color:#16120a;text-decoration:none;padding:10px 16px;border-radius:999px;font-family:Cinzel,serif;font-size:12px;letter-spacing:.08em}
-.record{margin-top:16px}
+.gallery{margin:8px 0 20px}
+.gallery img{width:100%;height:180px;object-fit:cover;border-radius:16px;border:1px solid var(--line);display:block}
+.gallery p{font-size:13px;color:var(--mute);margin:8px 0 0}
+.talisman{position:relative;min-height:340px;display:grid;place-items:center;overflow:hidden}
+.ring{position:absolute;border-radius:50%;border:1px solid rgba(201,162,39,.35)}
+.r1{width:260px;height:260px;animation:spin 36s linear infinite}
+.r2{width:200px;height:200px;border-style:dashed;animation:spin 22s linear infinite reverse}
+.r3{width:140px;height:140px;animation:spin 14s linear infinite}
+.core{position:relative;z-index:2;text-align:center;font-family:Cinzel,serif;color:var(--gold2)}
+.core b{display:block;font-size:22px;letter-spacing:.18em}
+.core small{display:block;margin-top:6px;color:var(--mute);letter-spacing:.12em}
+@keyframes spin{to{transform:rotate(360deg)}}
+.note{font-size:16px!important;color:var(--mute)!important}
 .record iframe{width:100%;min-height:70vh;border:1px solid var(--line);border-radius:16px;background:#05060a}
 footer{margin-top:48px;text-align:center;color:var(--mute);font-size:14px;border-top:1px solid var(--line);padding-top:22px}
 </style>
@@ -47,7 +59,22 @@ footer{margin-top:48px;text-align:center;color:var(--mute);font-size:14px;border
     <span>Mwari ndi Mwari</span>
     <span>MKEY-MNM-001-TAC-2024</span>
     <span>77-99-33</span>
-    <span>House of Masawi</span>
+    <span>House of Makwengura</span>
+  </div>
+
+  <div class="grid three gallery">
+    <figure>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Great_Zimbabwe_Close_up.jpg/1280px-Great_Zimbabwe_Close_up.jpg" alt="Great Zimbabwe stonework, public heritage photograph" onerror="this.parentNode.style.display='none'"/>
+      <p>Great Zimbabwe — public heritage image</p>
+    </figure>
+    <figure>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Great_Zimbabwe_Tower.jpg/1024px-Great_Zimbabwe_Tower.jpg" alt="Conical tower at Great Zimbabwe" onerror="this.parentNode.style.display='none'"/>
+      <p>The conical tower — public heritage image</p>
+    </figure>
+    <figure>
+      <img src="https://images.unsplash.com/photo-1462331947965-a7a7d71d4d40?auto=format&amp;fit=crop&amp;w=1200&amp;q=70" alt="Night sky used as a field of quiet"/>
+      <p>Night field — open photograph</p>
+    </figure>
   </div>
 
   <div class="grid two">
@@ -71,8 +98,25 @@ footer{margin-top:48px;text-align:center;color:var(--mute);font-size:14px;border
   </div>
 
   <section class="card" style="margin-top:16px">
+    <h2>Witness of Makwengura</h2>
+    <div class="talisman" aria-label="Symbolic protection matrix 777 999 333">
+      <div class="ring r1"></div>
+      <div class="ring r2"></div>
+      <div class="ring r3"></div>
+      <div class="core">
+        <b>777 · 999 · 333</b>
+        <small>MAKWENGURA</small>
+        <small>MASAWI</small>
+      </div>
+    </div>
+    <p>This ring is a public prayer and witness for every descendant named from Makwengura. It joins the old language of the House with a simple moving geometry — three circles, three numbers, one Name.</p>
+    <p>Unwavering faith is asked of Mwari ndi Mwari, not of a screen. Light, proportion, and repetition are used here the way a hymn is used: to keep a household in mind. Ideas from physics (field, wave, coherence) are spoken as metaphor. They are not a laboratory claim that a website can cancel harm.</p>
+    <p class="note">A page cannot eat a curse. God, elders, medicine, and the law remain first. While this page stands it only repeats the blessing: let the House live in peace.</p>
+  </section>
+
+  <section class="card" style="margin-top:16px">
     <h2>Music</h2>
-    <p>Masowe Faith Group Ltd. One tap opens the playlist.</p>
+    <p>Masowe Faith Group Ltd.</p>
     <iframe class="play" src="https://www.youtube.com/embed/videoseries?list=PL-avOqDdk_0e1JX4yxeZMPOUpsx00ol9i" title="Masowe Faith Group playlist" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <a class="btn" href="https://www.youtube.com/playlist?list=PL-avOqDdk_0e1JX4yxeZMPOUpsx00ol9i" target="_blank" rel="noopener">Open playlist</a>
   </section>
@@ -80,19 +124,17 @@ footer{margin-top:48px;text-align:center;color:var(--mute);font-size:14px;border
   <div class="grid two" style="margin-top:16px">
     <section class="card">
       <h2>Published constants</h2>
-      <p>Masawi Formula, published as vision:</p>
       <p class="formula">L = (M × Ω × c³) ÷ Φ</p>
-      <p>The Ω pattern and the 777-999-333 matrix sit with this House as continuity marks.</p>
+      <p>Published as vision. The matrix marks continuity.</p>
     </section>
     <section class="card">
       <h2>How to read the record</h2>
-      <p>The complete attached document is held in full on the library below. Nothing from that record has been discarded. This page is the face of the House; the panel is the book.</p>
+      <p>The complete attached document remains on the library panel below.</p>
     </section>
   </div>
 
-  <section class="card record">
+  <section class="card" style="margin-top:16px">
     <h2>Long record</h2>
-    <p>Full published text of the House archive.</p>
     <iframe title="Full House archive" src="https://tariromasawi.github.io/throne-eternal-library/"></iframe>
   </section>
 
